@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Header from '../Components/Header'
 import Grid from '@mui/material/Grid2';
-import Footer from '../components/Footer';
+import Footer from '../Components/Footer'
 import { getAllGrievanceAPI, updateGrievanceStatusAPI } from '../Services/allApi';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -181,7 +181,7 @@ const Dashboard = () => {
                     </Grid >
                 </div >
             </div>
-            <Footer />
+            <Footer/>
 
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
