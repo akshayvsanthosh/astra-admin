@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Header from '../components/Header'
+import Header from '../Components/Header'
 import Grid from '@mui/material/Grid2';
 import Footer from '../components/Footer';
 import { getAllGrievanceAPI, updateGrievanceStatusAPI } from '../Services/allApi';
