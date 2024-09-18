@@ -1,0 +1,93 @@
+/* header.jsx */
+.navLogo {
+    width: 65px;
+}
+
+.headerContainer {
+    height: 60px;
+    background-color: transparent;
+}
+
+/* footer.jsx */
+.footerContainer {
+    /* background: linear-gradient(185deg, #00d5ff 10%, #020069 35%); */
+    background-color: #020069;
+}
+
+/* dashboard */
+.dashboardMainDiv{
+    background-color: #cbc3d6;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    min-height: 100vh;
+    width: 100%;
+}
+
+.orderContainer {
+    padding: 35px 35px 0px 35px;
+}
+
+.orderDetailsBox {
+    background-color: white;
+    min-height: 145px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 17px;
+}
+
+.orderDetailsHeading {
+    font-size: 17px;
+    color: #212121;
+    font-weight: 600;
+    font-family: system-ui;
+    margin-bottom: 2px;
+}
+
+.orderStatusIcon {
+    height: 15px;
+    width: 15px;
+    display: block;
+    border-radius: 20px;
+}
+
+.categoryHeader{
+    font-weight: 800;
+    font-size: 25px;
+    color: #225f66;
+}
+
+.location{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.status{
+    margin-top: -7px;
+    color: #1d8c1d;
+    font-weight: 700;
+}
+
+/* Authentication.jsx */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8585852e;
+}
+  
+.auth-box {
+    width: 400px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+  
+.linkTo{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
